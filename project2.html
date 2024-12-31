@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Lato&family=Tektur:wght@600&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project2.css">
+    <title>Tic-tac-toe</title>
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+
+        <!-- Display Section: Shows the current player's turn -->
+        <section class="display">
+            <p class="display-player">Current Player: <span>X</span></p>
+        </section>
+
+        <!-- Container Section: The game board -->
+        <section class="container">
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+            <div class="tile"><span class="box"></span></div>
+        </section>
+
+        <!-- Announcer Section: Displays game results -->
+        <section class="display announcer hide">
+        </section>
+
+        <!-- Controls Section: The reset button -->
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+    <script type="text/javascript" src="tic.js"></script>
+</body>
+</html>
